@@ -1,0 +1,24 @@
+.container-who {
+    color: white;
+    background-color: #1abc9c;
+}
+
+img[id=main] {
+    border-radius: 50%;
+}
+
+.container-what {
+    color: white;
+    background-color: rgb(63, 63, 63);
+}
+
+td {
+    width: 350px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-footer {
+    color: white;
+    background-color: #333;
+}

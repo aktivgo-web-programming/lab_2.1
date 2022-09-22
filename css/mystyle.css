@@ -1,0 +1,64 @@
+p {
+    color: rgb(69, 183, 101);
+}
+
+p.colortext {
+    color: rgb(183, 69, 69);
+    margin: 20px;
+}
+
+p[id=main] {
+    color: rgb(69, 96, 183);
+    padding-left: 25px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: auto;
+    width: fit-content;
+}
+
+body {
+    background-color: beige;
+}
+
+div[student=yes] {
+    background-image: url("https://www.newsler.ru/data/content/2019/76310/e22c225deab94c257f29e174fd6033f7.jpg");
+}
+
+div {
+    width: 300px;
+    height: 300px;
+}
+
+div div {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+a:link{
+    color: black;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    font-size :60px;
+    font-weight: bold;
+    text-decoration: overline;
+}
+
+a:active {
+    color: green;
+    font-size: 50px;
+    text-decoration: line-through;
+}
