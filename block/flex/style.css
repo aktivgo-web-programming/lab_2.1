@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.orange-block {
+    background-color: orange;
+    flex-basis: 100%;
+}
+
+.blue-block {
+    background-color: lightskyblue;
+    flex-basis: 25%;
+}
+
+.yellow-block {
+    background-color: yellow;
+    flex-basis: 75%;
+}
+
+.green-block {
+    background-color: green;
+    flex-basis: 75%;
+}
+
+.yellow-block .orange-block {
+    background-color: orange;
+    flex-basis: 25%;
+    margin-top: 45%;
+    margin-left: 55%;
+}
+
+.yellow-block .purple-block {
+    background-color: purple;
+    flex-basis: 25%;
+    margin-top: 49%;
+    margin-left: -10%;
+}

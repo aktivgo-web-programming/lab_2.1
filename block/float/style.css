@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.orange-block {
+    background-color: orange;
+    width: 100%;
+    height: 10%;
+    float: right;
+}
+
+.blue-block {
+    background-color: lightskyblue;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.yellow-block {
+    background-color: yellow;
+    width: 75%;
+    height: 80%;
+    float: right;
+}
+
+.green-block {
+    background-color: green;
+    width: 75%;
+    height: 10%;
+    float: right;
+}
+
+.yellow-block .orange-block {
+    background-color: orange;
+    width: 20%;
+    height: 10%;
+    float: right;
+    margin-top: 45%;
+    margin-right: 20%;
+}
+
+.yellow-block .purple-block {
+    background-color: purple;
+    width: 20%;
+    height: 10%;
+    float: right;
+    margin-top: 49%;
+    margin-right: -33%;
+}
